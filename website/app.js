@@ -17,7 +17,7 @@ function performAction (e){
 	const content = feelElement.value;
 
 	if(newCode ==''){
-		alert("pleaase adds a zipcode");
+		alert("please adds a zipcode");
 	}
 
 	getWeather(baseUrl, newCode, apiKey)
